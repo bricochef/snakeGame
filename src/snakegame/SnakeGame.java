@@ -28,7 +28,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     public void paint(Graphics g) {
-        g.setColor(color(5, 50, 10));//KAKAV E CVETA NA CANVASA NA IGRATA - V RGB FORMAT
+        g.setColor(color(64, 64, 64));//KAKAV E CVETA NA CANVASA NA IGRATA - V RGB FORMAT
         g.fillRect(0, 0, WIDTH * SCALE, HEIGHT * SCALE);
         g.setColor(color(255, 216, 0));
 
